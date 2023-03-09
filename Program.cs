@@ -1,7 +1,8 @@
 ﻿namespace Tamagotchi {
     class Program {
         static void Main(string[] args) {
-            Console.WriteLine("Hello, World!");
+            Cat murka = new Cat();
+            murka.Meow();
         }
     }
 }
