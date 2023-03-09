@@ -1,8 +1,8 @@
 namespace Tamagotchi {
-    class Cat {
+    class Cat : Pet {
         private int _hunger;
         public string Name {init; get;}
-        public int Hunger {
+        public override int Hunger {
             init => this._hunger = value;
             get => this._hunger;
         }
@@ -10,7 +10,7 @@ namespace Tamagotchi {
             Console.WriteLine("meow! ");
         }
 
-        public void Eat(Food food) {
+        public override void Eat(Food food) {
             Console.WriteLine($"Cat eats {food.Name}. {food.Health} hp.");
         }
     }
