@@ -1,6 +1,6 @@
 namespace Tamagotchi {
     interface Food {
-        string Name {get;}
+        string TypeName {get;}
         int Health {init; get;}
     }
 }
