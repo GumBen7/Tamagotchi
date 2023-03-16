@@ -1,8 +1,8 @@
 namespace Tamagotchi {
     abstract class Pet {
         private int _hunger;
-        protected Timer _stateTimer;
-        protected StatusChecker _statusChecker;
+        //protected Timer _stateTimer;
+        //protected StatusChecker _statusChecker;
         public string Name {init; get;}
         public int Hunger {
             init => this._hunger = value;
@@ -12,9 +12,9 @@ namespace Tamagotchi {
         public abstract void Eat(Food food);
     }
 
-    class StatusChecker {
+    /*class StatusChecker {
         public void CheckStatus(Object stateInfo) {
 
         }
-    }
+    }//*/
 }
