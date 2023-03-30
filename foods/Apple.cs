@@ -1,7 +1,6 @@
 namespace Tamagotchi {
-    struct Apple : Food {
-        public int Health {init; get;}
-
-        public string TypeName {get => "apple";}
+    class Apple : Food {
+        public override int Health { init; get; }
+        public override string TypeName { get => "apple"; }
     }
 }

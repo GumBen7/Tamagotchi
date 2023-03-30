@@ -6,10 +6,8 @@ namespace Tamagotchi {
             Console.WriteLine($"dog eats {food.TypeName}. {food.Health} hp.");
         }
         public void Woof() => Console.WriteLine("woof! ");
-
         public override void Voice() {
             this.Woof();
         }
-
     }
 }
